@@ -1,0 +1,9 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'c:/Users/jerem/code/test-etl'
+mkdir -p /lib
+mkdir -p /obj
+make: Leaving directory 'c:/Users/jerem/code/test-etl'
+ 
+make: *** No rule to make target '/src/data_handler.cpp', needed by 'obj/data_handler.o'.
+make: *** No rule to make target '/src/data.cpp', needed by 'obj/data.o'.
+
